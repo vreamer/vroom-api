@@ -1,12 +1,18 @@
+require('dotenv').config()
+
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const mongoose = require('mongoose');
-const PORT = 4000;
 const Inventory = require('./inventory.model')
 
-mongoose.connect('mongodb://127.0.0.1:27017/inventory', { useNewUrlParser: true, useUnifiedTopology: true });
+app.use(cors());
+app.use(bodyParser.json());
+
+mongoose.connect(
+    process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/inventory',
+    { useNewUrlParser: true, useUnifiedTopology: true });
 
 const connection = mongoose.connection;
 connection.once('open', function () {
@@ -42,11 +48,9 @@ inventoryRoutes.route('/add').post(function (req, res) {
         });
 });
 
-app.use(cors());
-app.use(bodyParser.json());
-
 app.use('/inventory', inventoryRoutes)
 
-app.listen(PORT, function () {
-    console.log("Server is running on Port: " + PORT);
+const port = parseInt(process.env.PORT, 10) || 4000;
+app.listen(port, function () {
+    console.log("Server is running on Port: " + port);
 });
