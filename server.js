@@ -38,7 +38,7 @@ inventoryRoutes.route('/:id').get(function (req, res) {
 });
 
 inventoryRoutes.route('/add').post(function (req, res) {
-    let inventory = new Inventory(req.body);
+    let inventory = new Inventory(req.body.inventory);
     inventory.save()
         .then(inventory => {
             res.status(200).json({ 'inventory': 'inventory added successfully' });
