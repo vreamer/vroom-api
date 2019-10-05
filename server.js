@@ -5,7 +5,8 @@ const app = express();
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const mongoose = require('mongoose');
-const Inventory = require('./inventory.model')
+const inventoryRoutes = require('./inventory/inventory-routes')
+const inventoryGroupRoutes = require('./inventory/inventory-group-routes')
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -19,36 +20,8 @@ connection.once('open', function () {
     console.log("MongoDB database connection established successfully");
 })
 
-const inventoryRoutes = express.Router()
-inventoryRoutes.route('/').get(function (req, res) {
-    Inventory.find(function (err, inventories) {
-        if (err) {
-            console.log(err);
-        } else {
-            res.json(inventories);
-        }
-    });
-});
-
-inventoryRoutes.route('/:id').get(function (req, res) {
-    let id = req.params.id;
-    Inventory.findById(id, function (err, inventory) {
-        res.json(inventory);
-    });
-});
-
-inventoryRoutes.route('/add').post(function (req, res) {
-    let inventories = req.body.inventories.map(inventory => new Inventory(inventory));
-    Inventory.insertMany(inventories)
-        .then(_ => {
-            res.status(200).json({ 'inventory': 'inventory added successfully' });
-        })
-        .catch(err => {
-            res.status(400).send('adding new inventory failed');
-        });
-});
-
 app.use('/inventory', inventoryRoutes)
+app.use('/inventory-group', inventoryGroupRoutes)
 
 const port = parseInt(process.env.PORT, 10) || 4000;
 app.listen(port, function () {
