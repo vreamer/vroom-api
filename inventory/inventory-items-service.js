@@ -22,5 +22,11 @@ const getInventoryItems = (callback) => {
     });
 }
 
-module.exports = getInventoryGroups
-module.exports = getInventoryItems
+const saveInventoryItem = (inventoryItem) => {
+    const newInventoryItem = new InventoryItem(inventoryItem)
+    return newInventoryItem.save()
+}
+
+exports.getInventoryItems = getInventoryItems
+exports.getInventoryGroups = getInventoryGroups
+exports.saveInventoryItem = saveInventoryItem
