@@ -1,5 +1,5 @@
 const express = require('express');
-const getInventoryItems = require('./inventory-groups-service')
+const getInventoryItems = require('./inventory-items-service')
 
 const routes = express.Router()
 
