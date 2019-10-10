@@ -16,5 +16,8 @@
     "express": "^4.17.1",
     "lodash.groupby": "^4.6.0",
     "mongoose": "^5.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
   }
 }
