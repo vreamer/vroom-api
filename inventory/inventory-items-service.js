@@ -1,13 +1,20 @@
 const InventoryItem = require('./inventory-item.model')
-const groupBy = require('lodash.groupby');
+const _ = require('lodash')
 
 const getInventoryGroups = (callback) => {
     InventoryItem.find(function (err, inventoryItems) {
         if (err) {
             console.log(err);
         } else {
-            const inventoryGroups = groupBy(inventoryItems, i => i.group)
-            callback(inventoryGroups)
+            const sortedInventoryGroups = _(inventoryItems)
+                .sortBy('title')
+                .groupBy('group')
+                .toPairs()
+                .sortBy(g => g[0])
+                .fromPairs()
+                .value();
+
+            callback(sortedInventoryGroups)
         }
     });
 }
