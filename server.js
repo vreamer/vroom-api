@@ -13,7 +13,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 mongoose.connect(
-    process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/inventory',
+    process.env.MONGODB_URI,
     { useNewUrlParser: true, useUnifiedTopology: true });
 
 const connection = mongoose.connection;
