@@ -3,14 +3,10 @@ const Inventory = require('./inventory.model')
 
 const inventoryRoutes = express.Router()
 
-inventoryRoutes.route('/').get(function (req, res) {
-    Inventory.find(function (err, inventories) {
-        if (err) {
-            console.log(err);
-        } else {
-            res.json(inventories);
-        }
-    });
+inventoryRoutes.route('/:date').get(function (req, res) {
+    Inventory.find({date: new Date(req.params.date)})
+    .then(inventories => res.json(inventories))
+    .catch(err => console.log(err))
 });
 
 inventoryRoutes.route('/:id').get(function (req, res) {

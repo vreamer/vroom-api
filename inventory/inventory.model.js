@@ -7,6 +7,9 @@ let Inventory = new Schema({
     },
     amount: {
         type: Number
+    },
+    date: {
+        type: Date
     }
 });
 module.exports = mongoose.model('Inventory', Inventory);
