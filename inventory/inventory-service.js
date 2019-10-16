@@ -1,4 +1,5 @@
 const Inventory = require('./inventory.model')
+const InventoryItem = require('./inventory-item.model')
 const _ = require('lodash')
 
 const getInventoryFor = async (date) => {
@@ -12,12 +13,26 @@ const getInventoryFor = async (date) => {
         .toPairs()
         .map(([description, items]) => {
             const total = _.sumBy(items, 'amount')
-            return {
+            return [
                 description,
-                amount: total
-            }
+                total
+            ]
         })
+        .fromPairs()
         .value()
 }
 
-exports.getInventoryFor = getInventoryFor
+const getInventoryWithDefault = async(date) => {
+    const totalInventory = await getInventoryFor(date)
+    const inventoryItems = await InventoryItem.find()
+
+    return inventoryItems
+    .map(i => {
+        return {
+            description: i.title,
+            amount: totalInventory[i.title] || 0
+        }
+    })
+}
+
+exports.getInventoryWithDefault = getInventoryWithDefault
