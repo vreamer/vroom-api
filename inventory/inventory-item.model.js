@@ -7,6 +7,9 @@ let InventoryItem = new Schema({
     },
     group: {
         type: String
+    },
+    displayOrder: {
+        type: Number
     }
 });
 module.exports = mongoose.model('InventoryItem', InventoryItem);

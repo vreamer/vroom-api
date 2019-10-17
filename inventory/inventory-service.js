@@ -24,7 +24,7 @@ const getInventoryFor = async (date) => {
 
 const getInventoryWithDefault = async(date) => {
     const totalInventory = await getInventoryFor(date)
-    const inventoryItems = await InventoryItem.find()
+    const inventoryItems = await InventoryItem.find().sort('displayOrder')
 
     return inventoryItems
     .map(i => {
