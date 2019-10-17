@@ -7,7 +7,7 @@ const getInventoryGroups = (callback) => {
             console.log(err);
         } else {
             const sortedInventoryGroups = _(inventoryItems)
-                .sortBy('title')
+                .sortBy('displayOrder')
                 .groupBy('group')
                 .toPairs()
                 .sortBy(g => g[0])
