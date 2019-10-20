@@ -2,216 +2,259 @@
   {
     "title": "Chipsmore",
     "group": "Cabinet 1",
-    "displayOrder": 1
+    "displayOrder": 1,
+    "hasStockIn": true
   },
   {
     "title": "Oreo box",
     "group": "Cabinet 1",
-    "displayOrder": 2
+    "displayOrder": 2,
+    "hasStockIn": true
   },
   {
     "title": "Monde Pola 10",
     "group": "Cabinet 1",
-    "displayOrder": 3
+    "displayOrder": 3,
+    "hasStockIn": true
   },
   {
     "title": "Santino Expresso Bar",
     "group": "Cabinet 1",
-    "displayOrder": 23
+    "displayOrder": 23,
+    "hasStockIn": true
   },
   {
     "title": "Boncafe Coffee Beans",
     "group": "Cabinet 1",
-    "displayOrder": 24
+    "displayOrder": 24,
+    "hasStockIn": true
   },
   {
     "title": "Milk For Coffee Machine 12",
     "group": "Cabinet 1",
-    "displayOrder": 25
+    "displayOrder": 25,
+    "hasStockIn": true
   },
   {
     "title": "Orange",
     "group": "Cabinet 2",
-    "displayOrder": 26
+    "displayOrder": 26,
+    "hasStockIn": true
   },
   {
     "title": "Lemon",
     "group": "Cabinet 2",
-    "displayOrder": 27
+    "displayOrder": 27,
+    "hasStockIn": true
   },
   {
     "title": "Grape",
     "group": "Cabinet 2",
-    "displayOrder": 28
+    "displayOrder": 28,
+    "hasStockIn": true
   },
   {
     "title": "Coca Cola",
     "group": "Cabinet 2",
-    "displayOrder": 29
+    "displayOrder": 29,
+    "hasStockIn": true
   },
   {
     "title": "Milo",
     "group": "Cabinet 3",
-    "displayOrder": 20
+    "displayOrder": 20,
+    "hasStockIn": true
   },
   {
     "title": "Soya Bean",
     "group": "Cabinet 3",
-    "displayOrder": 21
+    "displayOrder": 21,
+    "hasStockIn": true
   },
   {
     "title": "Teh Tarik",
     "group": "Cabinet 3",
-    "displayOrder": 22
+    "displayOrder": 22,
+    "hasStockIn": true
   },
   {
     "title": "Shrimp Wonton Noodles",
     "group": "Small Fridge",
-    "displayOrder": 38
+    "displayOrder": 38,
+    "hasStockIn": true
   },
   {
     "title": "Spaghetti with Chicken Sauce",
     "group": "Small Fridge",
-    "displayOrder": 39
+    "displayOrder": 39,
+    "hasStockIn": true
   },
   {
     "title": "Stir Fried Chicken & Basil with Rice",
     "group": "Small Fridge",
-    "displayOrder": 40
+    "displayOrder": 40,
+    "hasStockIn": true
   },
   {
     "title": "Milk & Cream 12",
     "group": "Large Fridge",
-    "displayOrder": 30
+    "displayOrder": 30,
+    "hasStockIn": true
   },
   {
     "title": "Chocolate Banana 12",
     "group": "Large Fridge",
-    "displayOrder": 31
+    "displayOrder": 31,
+    "hasStockIn": true
   },
   {
     "title": "MERLION Durian 15",
     "group": "Large Fridge",
-    "displayOrder": 32
+    "displayOrder": 32,
+    "hasStockIn": true
   },
   {
     "title": "Angels Berry 12",
     "group": "Large Fridge",
-    "displayOrder": 33
+    "displayOrder": 33,
+    "hasStockIn": true
   },
   {
     "title": "Chocolate 15",
     "group": "Large Fridge",
-    "displayOrder": 34
+    "displayOrder": 34,
+    "hasStockIn": true
   },
   {
     "title": "Mango & Passion Fruit 15",
     "group": "Large Fridge",
-    "displayOrder": 35
+    "displayOrder": 35,
+    "hasStockIn": true
   },
   {
     "title": "Strawberry Cheesecake 15",
     "group": "Large Fridge",
-    "displayOrder": 36
+    "displayOrder": 36,
+    "hasStockIn": true
   },
   {
     "title": "Vanilla 15",
     "group": "Large Fridge",
-    "displayOrder": 37
+    "displayOrder": 37,
+    "hasStockIn": true
   },
   {
     "title": "Water 24",
     "group": "Drinks",
-    "displayOrder": 41
+    "displayOrder": 41,
+    "hasStockIn": true
   },
   {
     "title": "Coke",
     "group": "Drinks",
-    "displayOrder": 42
+    "displayOrder": 42,
+    "hasStockIn": true
   },
   {
     "title": "Tea",
     "group": "Drinks",
-    "displayOrder": 43
+    "displayOrder": 43,
+    "hasStockIn": true
   },
   {
     "title": "Peanut Butter Packed",
     "group": "Cookies",
-    "displayOrder": 4
+    "displayOrder": 4,
+    "hasStockIn": false
   },
   {
     "title": "Peanut Butter Unpacked",
     "group": "Cookies",
-    "displayOrder": 5
+    "displayOrder": 5,
+    "hasStockIn": false
   },
   {
     "title": "Fish biscuits Packed",
     "group": "Cookies",
-    "displayOrder": 6
+    "displayOrder": 6,
+    "hasStockIn": false
   },
   {
     "title": "Fish biscuits Unpacked",
     "group": "Cookies",
-    "displayOrder": 7
+    "displayOrder": 7,
+    "hasStockIn": false
   },
   {
     "title": "Lemon puffs Packed",
     "group": "Cookies",
-    "displayOrder": 8
+    "displayOrder": 8,
+    "hasStockIn": false
   },
   {
     "title": "Lemon puffs Unpacked",
     "group": "Cookies",
-    "displayOrder": 9
+    "displayOrder": 9,
+    "hasStockIn": false
   },
   {
     "title": "Egg Crackers Packed",
     "group": "Cookies",
-    "displayOrder": 10
+    "displayOrder": 10,
+    "hasStockIn": false
   },
   {
     "title": "Egg Crackers Unpacked",
     "group": "Cookies",
-    "displayOrder": 11
+    "displayOrder": 11,
+    "hasStockIn": false
   },
   {
     "title": "Love Letters Packed",
     "group": "Cookies",
-    "displayOrder": 12
+    "displayOrder": 12,
+    "hasStockIn": false
   },
   {
     "title": "Love Letters Unpacked",
     "group": "Cookies",
-    "displayOrder": 13
+    "displayOrder": 13,
+    "hasStockIn": false
   },
   {
     "title": "Iced Jems Packed",
     "group": "Cookies",
-    "displayOrder": 14
+    "displayOrder": 14,
+    "hasStockIn": false
   },
   {
     "title": "Iced Jems Unpacked",
     "group": "Cookies",
-    "displayOrder": 15
+    "displayOrder": 15,
+    "hasStockIn": false
   },
   {
     "title": "Butterfly Packed",
     "group": "Cookies",
-    "displayOrder": 16
+    "displayOrder": 16,
+    "hasStockIn": false
   },
   {
     "title": "Butterfly Unpacked",
     "group": "Cookies",
-    "displayOrder": 17
+    "displayOrder": 17,
+    "hasStockIn": false
   },
   {
     "title": "Potato Sticks Packed",
     "group": "Cookies",
-    "displayOrder": 18
+    "displayOrder": 18,
+    "hasStockIn": false
   },
   {
     "title": "Potato Sticks Unpacked",
     "group": "Cookies",
-    "displayOrder": 19
+    "displayOrder": 19,
+    "hasStockIn": false
   }
 ]

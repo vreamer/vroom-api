@@ -10,6 +10,9 @@ let InventoryItem = new Schema({
     },
     displayOrder: {
         type: Number
+    },
+    hasStockIn: {
+        type: Boolean
     }
 });
 module.exports = mongoose.model('InventoryItem', InventoryItem);
