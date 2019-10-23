@@ -31,7 +31,8 @@ const getInventoryWithDefault = async(date) => {
         return {
             description: i.title,
             amount: totalInventory[i.title] || 0,
-            hasStockIn: i.hasStockIn
+            hasStockIn: i.hasStockIn,
+            stepAmounts: i.stepAmounts
         }
     })
 }

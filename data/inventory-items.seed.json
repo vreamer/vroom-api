@@ -164,96 +164,112 @@
   {
     "title": "Peanut Butter Packed",
     "group": "Cookies",
+    "stepAmounts": [0.1, 0.5, 1],
     "displayOrder": 4,
     "hasStockIn": false
   },
   {
     "title": "Peanut Butter Unpacked",
     "group": "Cookies",
+    "stepAmounts": [0.1, 0.5, 1],
     "displayOrder": 5,
     "hasStockIn": false
   },
   {
     "title": "Fish biscuits Packed",
     "group": "Cookies",
+    "stepAmounts": [0.1, 0.5, 1],
     "displayOrder": 6,
     "hasStockIn": false
   },
   {
     "title": "Fish biscuits Unpacked",
     "group": "Cookies",
+    "stepAmounts": [0.1, 0.5, 1],
     "displayOrder": 7,
     "hasStockIn": false
   },
   {
     "title": "Lemon puffs Packed",
     "group": "Cookies",
+    "stepAmounts": [0.1, 0.5, 1],
     "displayOrder": 8,
     "hasStockIn": false
   },
   {
     "title": "Lemon puffs Unpacked",
     "group": "Cookies",
+    "stepAmounts": [0.1, 0.5, 1],
     "displayOrder": 9,
     "hasStockIn": false
   },
   {
     "title": "Egg Crackers Packed",
     "group": "Cookies",
+    "stepAmounts": [0.1, 0.5, 1],
     "displayOrder": 10,
     "hasStockIn": false
   },
   {
     "title": "Egg Crackers Unpacked",
     "group": "Cookies",
+    "stepAmounts": [0.1, 0.5, 1],
     "displayOrder": 11,
     "hasStockIn": false
   },
   {
     "title": "Love Letters Packed",
     "group": "Cookies",
+    "stepAmounts": [0.1, 0.5, 1],
     "displayOrder": 12,
     "hasStockIn": false
   },
   {
     "title": "Love Letters Unpacked",
     "group": "Cookies",
+    "stepAmounts": [0.1, 0.5, 1],
     "displayOrder": 13,
     "hasStockIn": false
   },
   {
     "title": "Iced Jems Packed",
     "group": "Cookies",
+    "stepAmounts": [0.1, 0.5, 1],
     "displayOrder": 14,
     "hasStockIn": false
   },
   {
     "title": "Iced Jems Unpacked",
     "group": "Cookies",
+    "stepAmounts": [0.1, 0.5, 1],
     "displayOrder": 15,
     "hasStockIn": false
   },
   {
     "title": "Butterfly Packed",
     "group": "Cookies",
+    "stepAmounts": [0.1, 0.5, 1],
     "displayOrder": 16,
     "hasStockIn": false
   },
   {
     "title": "Butterfly Unpacked",
     "group": "Cookies",
+    "stepAmounts": [0.1, 0.5, 1],
     "displayOrder": 17,
     "hasStockIn": false
   },
   {
     "title": "Potato Sticks Packed",
     "group": "Cookies",
+    "stepAmounts": [0.1, 0.5, 1],
     "displayOrder": 18,
     "hasStockIn": false
   },
   {
     "title": "Potato Sticks Unpacked",
     "group": "Cookies",
+    "stepAmounts": [0.1, 0.5, 1],
     "displayOrder": 19,
     "hasStockIn": false
   }

@@ -13,6 +13,9 @@ let InventoryItem = new Schema({
     },
     hasStockIn: {
         type: Boolean
+    },
+    stepAmounts: {
+        type: [Number]
     }
 });
 module.exports = mongoose.model('InventoryItem', InventoryItem);
