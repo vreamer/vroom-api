@@ -12,8 +12,9 @@
     "hasStockIn": true
   },
   {
-    "title": "Monde Pola 10",
+    "title": "Monde Pola",
     "group": "Cabinet 1",
+    "stepAmounts": [10],
     "displayOrder": 3,
     "hasStockIn": true
   },
@@ -30,8 +31,9 @@
     "hasStockIn": true
   },
   {
-    "title": "Milk For Coffee Machine 12",
+    "title": "Milk For Coffee Machine",
     "group": "Cabinet 1",
+    "stepAmounts": [12],
     "displayOrder": 25,
     "hasStockIn": true
   },
@@ -96,56 +98,65 @@
     "hasStockIn": true
   },
   {
-    "title": "Milk & Cream 12",
+    "title": "Milk & Cream",
     "group": "Large Fridge",
+    "stepAmounts": [12],
     "displayOrder": 30,
     "hasStockIn": true
   },
   {
-    "title": "Chocolate Banana 12",
+    "title": "Chocolate Banana",
     "group": "Large Fridge",
+    "stepAmounts": [12],
     "displayOrder": 31,
     "hasStockIn": true
   },
   {
-    "title": "MERLION Durian 15",
+    "title": "MERLION Durian",
     "group": "Large Fridge",
+    "stepAmounts": [15],
     "displayOrder": 32,
     "hasStockIn": true
   },
   {
-    "title": "Angels Berry 12",
+    "title": "Angels Berry",
     "group": "Large Fridge",
+    "stepAmounts": [12],
     "displayOrder": 33,
     "hasStockIn": true
   },
   {
-    "title": "Chocolate 15",
+    "title": "Chocolate",
     "group": "Large Fridge",
+    "stepAmounts": [15],
     "displayOrder": 34,
     "hasStockIn": true
   },
   {
-    "title": "Mango & Passion Fruit 15",
+    "title": "Mango & Passion Fruit",
     "group": "Large Fridge",
+    "stepAmounts": [15],
     "displayOrder": 35,
     "hasStockIn": true
   },
   {
-    "title": "Strawberry Cheesecake 15",
+    "title": "Strawberry Cheesecake",
     "group": "Large Fridge",
+    "stepAmounts": [15],
     "displayOrder": 36,
     "hasStockIn": true
   },
   {
-    "title": "Vanilla 15",
+    "title": "Vanilla",
     "group": "Large Fridge",
+    "stepAmounts": [15],
     "displayOrder": 37,
     "hasStockIn": true
   },
   {
-    "title": "Water 24",
+    "title": "Water",
     "group": "Drinks",
+    "stepAmounts": [24],
     "displayOrder": 41,
     "hasStockIn": true
   },
