@@ -3,11 +3,21 @@ const _ = require('lodash')
 
 const getChecklists = async () => {
     const checklists = await Checklist.find()
-    
     return _(checklists).map(c => ({
+        _id: c._id,
         title: c.title,
         steps: _(c.steps).orderBy('title')
     }))
 }
 
+const updateStep = async (checklistId, stepId, newStep) => {
+    return await Checklist.findById(checklistId, (err, checklist) => {
+        const step = _.find(checklist.steps, (s) => s._id == stepId)
+        step.title = newStep.title
+
+        return checklist.save();
+    })
+}
+
 exports.getChecklists = getChecklists
+exports.updateStep = updateStep
