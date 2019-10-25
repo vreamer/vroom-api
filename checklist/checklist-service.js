@@ -6,7 +6,7 @@ const getChecklists = async () => {
     
     return _(checklists).map(c => ({
         title: c.title,
-        steps: _(c.steps).sort()
+        steps: _(c.steps).orderBy('title')
     }))
 }
 
