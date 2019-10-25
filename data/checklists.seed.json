@@ -1,0 +1,21 @@
+[
+    {
+        "title": "Ensure Direct Mode is Enabled",
+        "steps": [
+            "1. From your computer, open the SteamVR app.",
+            "2. Click > Settings > Developer, and then make sure that Direct Mode is enabled.",
+            "3. Right-click the icon, and then click Reboot Vive headset.",
+            "4. Wait for the reboot process to complete."
+        ]
+    },
+    {
+        "title": "Ensure Cables are Connected",
+        "steps": [
+            "1. Disconnect the 3-in-1 cable from the HMD.",
+            "2. Disconnect the 3-in-1 cable from the Link Box.",
+            "3. Disconnect the Link Box short cables from the PC.",
+            "4. Disconnect the short cables from the Link Box.",
+            "5. Reconnect all cables and ensure they are properly seated and connected to the correct ports."
+        ]
+    }
+]
