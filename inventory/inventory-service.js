@@ -2,6 +2,14 @@ const Inventory = require('./inventory.model')
 const InventoryItem = require('./inventory-item.model')
 const _ = require('lodash')
 
+
+const getAmountFromSum = (sum) => {
+    if (Number.isInteger(sum)) {
+        return sum
+    }
+    return Number.parseFloat(sum).toFixed(1)
+}
+
 const getInventoryFor = async (date) => {
     const inventories = await Inventory.find(
         { date: new Date(date) },
@@ -20,13 +28,6 @@ const getInventoryFor = async (date) => {
         })
         .fromPairs()
         .value()
-}
-
-const getAmountFromSum = (sum) => {
-    if (Number.isInteger(sum)) {
-        return sum
-    }
-    return Number.parseFloat(sum).toPrecision(1)
 }
 
 const getInventoryWithDefault = async (date) => {
