@@ -102,56 +102,56 @@
     "group": "Large Fridge",
     "stepAmounts": [12],
     "displayOrder": 30,
-    "hasStockIn": true
+    "hasStockIn": false
   },
   {
     "title": "Chocolate Banana",
     "group": "Large Fridge",
     "stepAmounts": [12],
     "displayOrder": 31,
-    "hasStockIn": true
+    "hasStockIn": false
   },
   {
     "title": "MERLION Durian",
     "group": "Large Fridge",
     "stepAmounts": [15],
     "displayOrder": 32,
-    "hasStockIn": true
+    "hasStockIn": false
   },
   {
     "title": "Angels Berry",
     "group": "Large Fridge",
     "stepAmounts": [12],
     "displayOrder": 33,
-    "hasStockIn": true
+    "hasStockIn": false
   },
   {
     "title": "Chocolate",
     "group": "Large Fridge",
     "stepAmounts": [15],
     "displayOrder": 34,
-    "hasStockIn": true
+    "hasStockIn": false
   },
   {
     "title": "Mango & Passion Fruit",
     "group": "Large Fridge",
     "stepAmounts": [15],
     "displayOrder": 35,
-    "hasStockIn": true
+    "hasStockIn": false
   },
   {
     "title": "Strawberry Cheesecake",
     "group": "Large Fridge",
     "stepAmounts": [15],
     "displayOrder": 36,
-    "hasStockIn": true
+    "hasStockIn": false
   },
   {
     "title": "Vanilla",
     "group": "Large Fridge",
     "stepAmounts": [15],
     "displayOrder": 37,
-    "hasStockIn": true
+    "hasStockIn": false
   },
   {
     "title": "Water",
