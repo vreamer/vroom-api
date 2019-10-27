@@ -17,6 +17,7 @@ connection.once('open', async () => {
     console.log("MongoDB database connection established successfully");
     console.log(process.env.MONGODB_URI)
     await connection.db.dropCollection('checklists')
+    await connection.db.dropCollection('inventoryitems')
 
     const checklists = checklistJson.map(c => new Checklist(c))
     await Checklist.insertMany(checklists)
