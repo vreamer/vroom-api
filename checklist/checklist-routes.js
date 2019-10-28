@@ -12,17 +12,9 @@ checklistRoutes.route('/').get(async (req, res) => {
 checklistRoutes.route('/:checklistId/steps/:stepId').put(async (req, res) => {
     const checklistId = req.params.checklistId
     const stepId = req.params.stepId
-
-    const checklist = await ChecklistService.updateStep(checklistId, stepId, req.body)
-
-    res.send(checklist);
-})
-
-checklistRoutes.route('/:checklistId/steps/:stepId/image').post(async (req, res) => {
-    const checklistId = req.params.checklistId
-    const stepId = req.params.stepId
     const imageMeta = await ImageUploader.uploadImage(req.files.stepImage)
     const newStep = {
+        title: req.body.title,
         image: imageMeta['secure_url']
     }
 
