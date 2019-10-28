@@ -13,7 +13,13 @@ const getChecklists = async () => {
 const updateStep = async (checklistId, stepId, newStep) => {
     return await Checklist.findById(checklistId, (err, checklist) => {
         const step = _.find(checklist.steps, (s) => s._id == stepId)
-        step.title = newStep.title
+        if (newStep.title) {
+            step.title = newStep.title
+        }
+
+        if (newStep.image) {
+            step.image = newStep.image
+        }
 
         return checklist.save();
     })
